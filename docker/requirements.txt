@@ -1,4 +1,4 @@
-tensorflow-probability  #==1.0.0 #0.9
+tensorflow-probability==0.10.1  #latest from 0.9
 gym==0.9.4
 pillow==6.2.1
 cma==2.2.0

@@ -3,6 +3,12 @@ import os
 import tensorflow as tf
 import random
 import numpy as np
+import sys
+import os
+os.chdir('/home/ubuntu/WM/WorldModels')
+sys.path.append('/home/ubuntu/WM/WorldModels')
+sys.path
+
 np.set_printoptions(precision=4, edgeitems=6, linewidth=100, suppress=True)
 from vae.vae import CVAE
 from utils import PARSER
